@@ -12,16 +12,19 @@
     max-width: 400px;
     font-family: 'Jua', sans-serif;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     background-color: rgb(219, 240, 240);
     border-radius: 20px;
 }
 .plan-title{
-    font-size: 2rem;
+    font-size: 24px;
+    font-weight: bold;
     padding-bottom: 10px;
 }
 .plan-rate{
-    font-size: 4rem;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 5px;
 }
 ul{
     list-style: none;
@@ -29,11 +32,18 @@ ul{
     padding: 0;
 }
 ul > li{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+    background-color: rgb(233, 146, 46);
+    border: none;
+    border-radius: 5px;
+    color: white;
 }
 @media (max-width:1250px){
     .pricing-container{
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
     }
 }
