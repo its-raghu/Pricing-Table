@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Jost:wght@300&family=Jua&family=Libre+Baskerville&family=Merriweather&family=Playpen+Sans:wght@500&display=swap');
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.pricing-plan{
+    flex: 1;
+    max-width: 400px;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(219, 240, 240);
+    border-radius: 20px;
+}
+.plan-title{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.plan-rate{
+    font-size: 4rem;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul > li{
+    padding-bottom: 20px;
+}
+@media (max-width:1250px){
+    .pricing-container{
+        flex-direction: column;
+        height: 100vh;
+    }
+}
