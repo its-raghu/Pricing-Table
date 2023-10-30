@@ -36,11 +36,15 @@ ul > li{
 }
 button{
     padding: 10px;
-    background-color: rgb(233, 146, 46);
+    background-color: hwb(32 9% 5%);
     border: none;
     border-radius: 5px;
     color: white;
 }
+button:active{
+    background-color: hwb(32 36% 10%);
+}
+
 @media (max-width:1250px){
     .pricing-container{
         flex-direction: column;
